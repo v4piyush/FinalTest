@@ -1,0 +1,150 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: deepskyblue;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+}    
+
+nav a {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 1em;
+    color: #ffffff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #2877d8;
+}
+
+/* HEADER */
+header {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 360px;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    font-size: 4.0em;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+header h2 {
+    font-size: 3.0em;
+    color: #fff;
+    padding: 1em;
+}
+
+button {
+    background-color: #353434;
+    font-size: 24px;
+    color: #fff;
+    padding: 32x 16px;
+    border: 2px solid #fff;
+
+}
+
+
+/* MAIN CONTENT */
+.content {
+    background-image: url(../images/background.jpg);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+figure one {
+    float: inline-start;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+main {
+    column-gap: normal;
+    columns: auto;
+    width: fit-content;
+}
+
+figure cite {
+    display: block;
+}
+
+figure img {
+    width: 250px;
+}
+
+
+/* MAIN */
+.content {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+main {
+    width: 65%;
+}
+
+
+/* ASIDE */
+aside {
+    width: 30%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h2 {
+    color: #fff;
+    font-size: 2.1em;
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* FOOTER */
+footer  {
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2px;
+}
