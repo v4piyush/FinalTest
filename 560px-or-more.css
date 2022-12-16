@@ -1,0 +1,5 @@
+@media screen and (min-width: 580px) and (max-width: 680px) {
+    .view {
+        width: 600px;
+    }
+}
